@@ -47,7 +47,6 @@ public class ContaTerminal {
         System.out.println("Informe o valor para saque:");
         double valorSaque = sc.nextDouble();
         conta.sacar(valorSaque);
-        return;
     }
 
     private static void deposito(Scanner sc, Conta conta) {

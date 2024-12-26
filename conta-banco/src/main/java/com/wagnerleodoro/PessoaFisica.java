@@ -11,7 +11,7 @@ public class PessoaFisica extends Pessoa {
     @Override
     public void mostrarInformacoes() {
         System.out.println("===============================================");
-        System.out.println("|           Informações da Conta        |");
+        System.out.println("|           Informações da Conta              |");
         System.out.println("===============================================");
         System.out.printf("| %-15s | %-25s |\n", "Tipo", "Pessoa Física");
         System.out.printf("| %-15s | %-25s |\n", "Titular", this.nome);
